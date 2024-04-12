@@ -7,6 +7,7 @@ namespace NetFxWebApplication1.Controllers
         public ActionResult Index()
         {
             int unsedVariable;
+
             return View();
         }
 
