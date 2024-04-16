@@ -15,6 +15,7 @@ namespace NetFxWebApplication1.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            int unused2;
 
             return View();
         }
