@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxWebApplication1", "Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxWebFormsApp", "NetFxWebFormsApp\NetFxWebFormsApp.csproj", "{685AF8F7-00A7-42FF-9823-59FA6CA6857F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{07F27F58-CD48-4F29-914F-7BC9BF41B991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{07F27F58-CD48-4F29-914F-7BC9BF41B991}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{67974F30-6586-445A-9E71-87C7FE8A4D36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,5 +35,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD5B9F30-52B2-4165-9F7A-0CB4A8F63B17}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{07f27f58-cd48-4f29-914f-7bc9bf41b991}*SharedItemsImports = 5
+		SharedProject1\SharedProject1.projitems*{67974f30-6586-445a-9e71-87c7fe8a4d36}*SharedItemsImports = 13
+		SharedProject1\SharedProject1.projitems*{707c3166-14e8-40e5-87b7-e1eefe3e5880}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

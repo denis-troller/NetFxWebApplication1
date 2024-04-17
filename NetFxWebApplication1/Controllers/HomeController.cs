@@ -7,6 +7,10 @@ namespace NetFxWebApplication1.Controllers
         public ActionResult Index()
         {
             int unsedVariable;
+            var c1 = new SharedProject1.SharedClass1();
+
+            c1.SharedMethod1();
+
 
             return View();
         }

@@ -8,4 +8,8 @@ int a = j + 1;
 
 bool taken = false;
 
+var c1 = new SharedProject1.SharedClass1();
+
+c1.SharedMethod1();
+
 sl.Enter(ref taken);
